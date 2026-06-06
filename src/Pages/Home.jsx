@@ -79,9 +79,9 @@ const PAUSE_DURATION = 2000;
 const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
-  { icon: Github, link: "https://github.com/EkiZR", label: "GitHub Profile" },
-  { icon: Linkedin, link: "https://www.linkedin.com/in/ekizr/", label: "LinkedIn Profile" },
-  { icon: Instagram, link: "https://www.instagram.com/ekizr_/?hl=id", label: "Instagram Profile" }
+  { icon: Github, link: "https://github.com/MufidIhsann", label: "GitHub Profile" },
+  { icon: Linkedin, link: "https://www.linkedin.com/in/mufidihsann/", label: "LinkedIn Profile" },
+  { icon: Instagram, link: "https://www.instagram.com/mufidihsann/?hl=id", label: "Instagram Profile" }
 ];
 
 const Home = () => {
@@ -140,28 +140,28 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Eki Zulfar Rachman — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Eki Zulfar Rachman, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
-     <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ekizr.com" />
-        <meta property="og:title" content="Eki Zulfar Rachman — Frontend Web Developer" />
-     <meta property="og:description" content="Website resmi dan portofolio Eki Zulfar Rachman, Front-End Web Developer." />
-        <meta property="og:url" content="https://ekizr.com" />
-        <meta property="og:type" content="website" />
-        <script type="application/ld+json">{`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "Eki Zulfar Rachman",
-            "jobTitle": "Frontend Developer",
-            "url": "https://ekizr.com",
-            "sameAs": [
-              "https://github.com/EkiZR",
-              "https://www.linkedin.com/in/ekizr/",
-              "https://www.instagram.com/ekizr_/"
-            ]
-          }
-        `}</script>
+        <title>Muhammad Mufid Ihsan — Frontend Web Developer</title>
+        <meta name="description" content="Website resmi Muhammad Mufid Ihsan, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <link rel="canonical" href="https://mufid.com" />
+        <meta property="og:title" content="Muhammad Mufid Ihsan — Frontend Web Developer" />
+        <meta property="og:description" content="Website resmi dan portofolio Muhammad Mufid Ihsan, Front-End Web Developer." />
+        <meta property="og:url" content="https://mufid.com" />
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Muhammad Mufid Ihsan",
+              "jobTitle": "Frontend Web Developer",
+              "url": "https://mufid.com",
+              "sameAs": [
+                "https://github.com/MufidIhsann",
+                "https://www.linkedin.com/in/mufidihsann/",
+                "https://www.instagram.com/mufidihsann/"
+              ]
+            }
+          `}
+        </script>
       </Helmet>
 
       <div className="min-h-screen bg-[#030014] overflow-hidden px-[5%] sm:px-[5%] lg:px-[10%]" id="Home">

@@ -147,8 +147,8 @@ export default function Certificates() {
                   className="px-3 py-1.5 rounded-xl border border-white/10 text-gray-500 hover:text-white text-xs transition-colors">
                   Clear
                 </button>
-                <button onClick={uploadImage} disabled={uploading} className="relative group/u">
-                  <div className="absolute -inset-0.5 bg-gradient-to-r from-[#4f52c9] to-[#8644c5] rounded-xl opacity-60 blur group-hover/u:opacity-100 transition duration-300" />
+                <button onClick={uploadImage} disabled={uploading} className="relative group">
+                  <div className="absolute -inset-0.5 bg-gradient-to-r from-[#4f52c9] to-[#8644c5] rounded-xl opacity-60 blur group-hover:opacity-100 transition duration-300" />
                   <div className="relative flex items-center gap-2 px-4 py-1.5 bg-[#030014] rounded-xl border border-white/10">
                     {uploading ? <div className="w-3.5 h-3.5 border-2 border-white/20 border-t-white rounded-full animate-spin" /> : <Upload className="w-3.5 h-3.5 text-indigo-400" />}
                     <span className="text-xs text-gray-200">{uploading ? 'Uploading...' : 'Upload'}</span>

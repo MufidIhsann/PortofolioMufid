@@ -4,7 +4,7 @@ Hello everyone\! 👋
 
 Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like to share the portfolio website project that I've developed. built with React and Supabase, featuring a public-facing site and an admin dashboard.
 
-**Live Demo:** [https://ekizr.com](https://ekizr.com)
+**Live Demo:** [https://muhammadmufidihsan.com](https://ekizr.com)
 
 ---
 
@@ -12,23 +12,23 @@ Let me introduce myself, I'm **Eki Zulfar Rachman**. On this occasion, I'd like 
 
 This project is built using modern web technologies:
 
-  - **ReactJS** - Frontend framework
-  - **Tailwind CSS** - Utility-first CSS framework
-  - **Supabase** - Backend for portfolio data, certificates, and comment system
-  - **AOS** - Animate On Scroll library
-  - **Framer Motion** - Animation library
-  - **Lucide** - Icon library
-  - **Material UI** - React component library
-  - **SweetAlert2** - Beautiful alert dialogs
+- **ReactJS** - Frontend framework
+- **Tailwind CSS** - Utility-first CSS framework
+- **Supabase** - Backend for portfolio data, certificates, and comment system
+- **AOS** - Animate On Scroll library
+- **Framer Motion** - Animation library
+- **Lucide** - Icon library
+- **Material UI** - React component library
+- **SweetAlert2** - Beautiful alert dialogs
 
 ---
 
 ## User Roles
 
-| Role | Access |
-|---|---|
-| **Visitor (Public)** | View projects, certificates, and comments — leave a comment |
-| **Admin** | Login to dashboard — full CRUD on projects & certificates — delete & pin/unpin comments |
+| Role                 | Access                                                                                  |
+| -------------------- | --------------------------------------------------------------------------------------- |
+| **Visitor (Public)** | View projects, certificates, and comments — leave a comment                             |
+| **Admin**            | Login to dashboard — full CRUD on projects & certificates — delete & pin/unpin comments |
 
 ---
 
@@ -64,16 +64,16 @@ VITE_SUPABASE_ANON_KEY=your-supabase-anon-key
 ### 3. Supabase Client (`src/supabase.js`)
 
 ```javascript
-import { createClient } from '@supabase/supabase-js'
+import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = import.meta.env.VITE_SUPABASE_URL
-const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY
+const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
+const supabaseKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseKey) {
-  throw new Error('Supabase credentials missing. Check your .env file.')
+  throw new Error("Supabase credentials missing. Check your .env file.");
 }
 
-export const supabase = createClient(supabaseUrl, supabaseKey)
+export const supabase = createClient(supabaseUrl, supabaseKey);
 ```
 
 ### 4. Database Setup
@@ -236,12 +236,14 @@ Open `http://localhost:5173` in your browser.
 ## Pages & Features
 
 ### Public (Visitor)
+
 - **Home** — Hero section, about, skills
 - **Projects** — List of published projects with detail modal
 - **Certificates** — Certificate gallery
 - **Comments** — View all comments, submit a new comment with name and optional profile photo
 
 ### Admin (Dashboard)
+
 - **Login Page** — Email & password authentication via Supabase Auth
 - **Dashboard** — Overview panel after login
 - **Projects** — Create, edit, delete projects; manage image, links, features, tech stack, publish status, and order
