@@ -140,11 +140,11 @@ const Home = () => {
   return (
     <>
       <Helmet>
-        <title>Muhammad Mufid Ihsan — Frontend Web Developer</title>
-        <meta name="description" content="Website resmi Muhammad Mufid Ihsan, Front-End Web Developer. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
+        <title>Muhammad Mufid Ihsan — AI-Software Development Eunthusiast</title>
+        <meta name="description" content="Website resmi Muhammad Mufid Ihsan, AI-Software Development Eunthusiast. Saya berfokus pada penciptaan pengalaman digital yang menarik dan selalu berupaya memberikan solusi terbaik dalam setiap proyek yang saya kerjakan." />
         <link rel="canonical" href="https://mufid.com" />
-        <meta property="og:title" content="Muhammad Mufid Ihsan — Frontend Web Developer" />
-        <meta property="og:description" content="Website resmi dan portofolio Muhammad Mufid Ihsan, Front-End Web Developer." />
+        <meta property="og:title" content="Muhammad Mufid Ihsan — AI-Software Development Eunthusiast" />
+        <meta property="og:description" content="Website resmi dan portofolio Muhammad Mufid Ihsan, AI-Software Development Eunthusiast." />
         <meta property="og:url" content="https://mufid.com" />
         <script type="application/ld+json">
           {`
